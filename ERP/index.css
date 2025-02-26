@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    background-image:url('background1.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.container{
+    width: 100;
+    display: flex;
+    position: center;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+.wrapper{
+    width: 100%;
+    
+    /* border: 2px solid red; */
+    padding: 10px;
+    display: flex;
+    position: center;
+    justify-content: center;
+    align-items: center;
+}
+.form1{
+    
+    height: 200px;
+    border: 4px solid rgb(1, 1, 1);
+    padding: 10px;
+    background-attachment: fixed;
+    background-color: antiquewhite;
+    /* flex-direction: column; */
+}
+for, input{
+    margin: 10px;
+    height: 20px;
+}
+/* #button{
+    width: 100px;
+    height: 30px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+} */
